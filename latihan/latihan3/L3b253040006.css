@@ -1,0 +1,42 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-family: comic sans MS;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+}
+
+h3{
+    font-family: georgia;
+}
+
+h4{
+    text-align: right;
+    font-style: italic;
+    font-family: georgia;
+}
+
+p{
+    text-align: justify;
+    font-family: georgia;
+}
+
+h3 a{
+    color: white;
+}
+
+
+
+.warna-oren{
+    color: orange;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
