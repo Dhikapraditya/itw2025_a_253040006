@@ -1,5 +1,6 @@
 body {
     background-color: aqua;
+    font-family: georgia;
 }
 
 h1 {
@@ -9,19 +10,14 @@ h1 {
     text-align: center;
 }
 
-h3{
-    font-family: georgia;
-}
 
 h4{
     text-align: right;
     font-style: italic;
-    font-family: georgia;
 }
 
 p{
     text-align: justify;
-    font-family: georgia;
 }
 
 h3 a{
