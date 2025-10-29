@@ -1,0 +1,146 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(img/footer_lodyas.png);
+    color: #333;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header{
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(82, 82, 184);
+    padding: 3px;
+}
+
+.header a:hover{
+    background-color: yellow;
+    color: red;
+}
+
+.hero{
+    height: 300px;
+    background-image: url(img/wallpaperflare.com_wallpaper\ \(3\).jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+    border-bottom: 5px solid blue;
+    border-top: 5px solid red;
+}
+
+.gov{
+    background-image: url(img/OP.jpg);
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+    
+}
+.gov2{
+    background-image: url(img/igoh.jpg);
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+    
+}
+
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis{
+    font-size: 11px;
+    margin-top: -10px;
+}
+.content .penulis a{
+    color: salmon;
+    text-decoration: none;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer{
+    background-color: black;
+    padding: 10px;
+}
+
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+
+.p1{
+    font-weight: bold;
+}
+
+
+.w2{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding-top: 100px; 
+    padding-bottom: 100px;
+}
+.logo{
+    text-align: center;
+}
+.logo .l1 {
+    background-image: url(img/logo.png);
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-size: cover;
+    margin-left: 10px;
+}
+.logo .l2 {
+    background-image: url(img/youtube.png);
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-size: cover;
+}
+.logo .l3 {
+    background-image: url(img/instagram.png);
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-size: cover;
+}
+.logo .l4 {
+    background-image: url(img/gmail\ \(1\).png);
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.logo a:hover{
+    background-color: black;
+}
