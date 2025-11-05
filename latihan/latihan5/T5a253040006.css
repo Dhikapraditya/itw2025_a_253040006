@@ -1,0 +1,134 @@
+body{
+    font-family: "Inter", sans-serif;
+    background-color: gray;
+}
+
+h1{
+    font-size: 80px;
+    margin: 50px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+}
+
+.container{
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    padding: 30px;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
+    border-radius: 10px;
+}
+
+.gallery li{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    border: 5px solid grey;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+.gallery li,
+.gallery li a img,
+.gallery li span{
+    border-radius: 50%;
+}
+
+.gallery li span{
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(200,200,200,.5);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 120px;
+    color: #333;
+    text-shadow: 1px 1px 1px lightgrey;
+    opacity: 0;
+    transition: .3s;
+    transform: scale(0) rotate(0);
+}
+
+.gallery li a:hover span{
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+.clear{
+    clear: both;
+}
+
+/* overlay */
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0);
+    z-index: 1;
+    transition: 1s;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    padding: 100px;
+}
+
+.overlay .close{
+    position: absolute;
+    opacity: 0;
+    top: 70px;
+    left: 60%;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px
+}
+
+.overlay:target{
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.6);
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.overlay img{
+    max-height: 100%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.8);
+}
+
+.overlay:target img{
+    animation: zoomDanFade 1s;
+}
+
+.overlay:target .close{
+    animation: slidedown .5s .5s forwards;
+}
+
+/* animasi */
+@keyframes zoomDanFade{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slidedown{
+    0%{
+        opacity: 0;
+        margin-top: -20px;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
