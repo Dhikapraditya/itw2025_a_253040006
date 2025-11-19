@@ -1,0 +1,18 @@
+.container{
+    height: 1000px;
+}
+
+
+.dc img{
+    width: 120px;
+    height: 120px;
+}
+
+.back{
+    text-align: center;
+}
+.back img{
+    width: 1250px;
+    height: 300px;
+    margin-top: 20px;
+}

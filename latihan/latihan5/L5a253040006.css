@@ -110,6 +110,12 @@ h1{
     animation: slidedown .5s .5s forwards;
 }
 
+
+/* navigasi */
+.next{
+    opacity: 0;
+}
+
 /* animasi */
 @keyframes zoomDanFade{
     0%{
