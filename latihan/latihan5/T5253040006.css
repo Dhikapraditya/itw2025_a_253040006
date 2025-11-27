@@ -22,11 +22,43 @@
     margin-right: 10px;
     border: 2px solid black;
     margin-left: 10px;
+    transition: 0.3s;
 }
 
-.bc a:hover{
+.bc:hover .aqua img{
     color: blue;
-    background-color: blue;
+    content: url(img/T5/justice\ league/img-stage-2.jpg);
+    /* filter: brightness(0.5); */
+}
+.bc:hover .green img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-green.jpg);
+    /* filter: brightness(0.5); */
+}
+.bc:hover .super img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-super.jpg);
+    /* filter: brightness(0.5); */
+}
+.bc:hover .batm img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-batm.jpg);
+    /* filter: brightness(0.5); */
+}
+.bc:hover .wonder img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-wonder.jpg);
+    /* filter: brightness(0.5); */
+}
+.bc:hover .flash img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-flash.jpg);
+    /* filter: brightness(0.5); */
+}
+.bc:hover .martian img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-martian.jpg);
+    /* filter: brightness(0.5); */
 }
 
 
